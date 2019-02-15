@@ -7,8 +7,8 @@ export const builder = (yargs:any) => {
 };
 export const handler = (argv:any) => {
     if(ControllerSer.createSer(argv.id,argv.name)){
-        console.log('the ser was created successfuly');
+        console.log('the ser was created successfully');
     }else{
         console.log('a ser with this id already exists');
     }
-}
+};
