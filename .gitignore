@@ -71,7 +71,8 @@ typings/
 
 # nuxt.js build output
 .nuxt
-
+# ignore build files
+dist/
 # vuepress build output
 .vuepress/dist
 

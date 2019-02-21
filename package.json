@@ -1,10 +1,16 @@
 {
   "name": "cli-crud",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "A command line that perfomance crud operations",
-  "main": "index.js",
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "bin": {
+    "cli-crud": "dist/app.js"
+  },
   "scripts": {
-    "start": "ts-node src/app.ts"
+    "prepublishOnly": "npm run build",
+    "start": "ts-node src/app.ts",
+    "build": "tsc"
   },
   "author": "Arimateia Morais",
   "license": "ISC",
