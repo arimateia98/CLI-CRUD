@@ -2,7 +2,7 @@
 import {Ser} from './Ser';
 import fs from 'fs';
 import R from 'ramda';
-const jsonPath = 'dist/array.json'
+const jsonPath = 'array.json'
 
 class ControllerSer{
     public static serList:Ser[]; 
