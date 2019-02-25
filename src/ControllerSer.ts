@@ -1,7 +1,7 @@
 
 import {Ser} from './Ser';
-const fs = require('fs');
-const R = require('ramda');
+import fs from 'fs';
+import R from 'ramda';
 const jsonPath = './files/array.json'
 
 class ControllerSer{
