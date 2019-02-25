@@ -2,11 +2,10 @@
 import {Ser} from './Ser';
 import fs from 'fs';
 import R from 'ramda';
-const jsonPath = './dist/array.json'
+const jsonPath = 'dist/array.json'
 
 class ControllerSer{
     public static serList:Ser[]; 
- 
     public static readJson():void{
         let data;
         ControllerSer.serList = []
